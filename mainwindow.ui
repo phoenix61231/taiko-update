@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="GameMainBackground">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>511</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/bg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Startmob">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>511</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/mob.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="around">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>115</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/mtaikoflash_blue.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="blacksoul">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/soulblk.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bluesoul">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>200</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/soulblue.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bluetaiko">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>120</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/bluetaiko.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bluetaikol">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>115</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/bluetaikol.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="drum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/mtaiko.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="goodl">
+    <property name="geometry">
+     <rect>
+      <x>83</x>
+      <y>115</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/goodl.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="goods">
+    <property name="geometry">
+     <rect>
+      <x>88</x>
+      <y>127</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/goods.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="greensoul">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>200</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/soulgreen.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mid">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/mtaikoflash_red.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notbadl">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>115</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/notbadl.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notbads">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>129</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/notbads.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="redtaiko">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>120</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/redtaiko.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="redtaikol">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>115</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/redtaikol.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scoreboard">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>150</y>
+      <width>371</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/scoreboard.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>70</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Score</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="target">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>110</y>
+      <width>51</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/target.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>70</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yellowsoul">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img.qrc">:/img/soulyellow.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Start">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>220</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>340</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restart">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>340</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Restart</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumberscore">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>90</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumbertimer">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>90</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdcorrectrate">
+    <property name="geometry">
+     <rect>
+      <x>363</x>
+      <y>165</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdnan">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>195</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdniceplay">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>195</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdnotbadplay">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>195</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdscore">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>232</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tips">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tips&lt;/p&gt;&lt;p&gt;Press Q for Red Taiko&lt;/p&gt;&lt;p&gt;Press P for Blue Taiko&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>GameMainBackground</zorder>
+   <zorder>drum</zorder>
+   <zorder>mid</zorder>
+   <zorder>around</zorder>
+   <zorder>blacksoul</zorder>
+   <zorder>bluesoul</zorder>
+   <zorder>greensoul</zorder>
+   <zorder>yellowsoul</zorder>
+   <zorder>goodl</zorder>
+   <zorder>bluetaikol</zorder>
+   <zorder>bluetaiko</zorder>
+   <zorder>goods</zorder>
+   <zorder>notbadl</zorder>
+   <zorder>notbads</zorder>
+   <zorder>redtaiko</zorder>
+   <zorder>Startmob</zorder>
+   <zorder>score</zorder>
+   <zorder>timer</zorder>
+   <zorder>Start</zorder>
+   <zorder>exit</zorder>
+   <zorder>restart</zorder>
+   <zorder>lcdNumberscore</zorder>
+   <zorder>lcdNumbertimer</zorder>
+   <zorder>target</zorder>
+   <zorder>scoreboard</zorder>
+   <zorder>lcdcorrectrate</zorder>
+   <zorder>lcdnan</zorder>
+   <zorder>lcdniceplay</zorder>
+   <zorder>lcdnotbadplay</zorder>
+   <zorder>lcdscore</zorder>
+   <zorder>redtaikol</zorder>
+   <zorder>tips</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>511</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

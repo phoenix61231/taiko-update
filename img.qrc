@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>bg.png</file>
+        <file>bluetaiko.png</file>
+        <file>bluetaikol.png</file>
+        <file>goodl.png</file>
+        <file>goods.png</file>
+        <file>mob.png</file>
+        <file>mtaiko.png</file>
+        <file>mtaikoflash_blue.png</file>
+        <file>mtaikoflash_red.png</file>
+        <file>notbadl.png</file>
+        <file>notbads.png</file>
+        <file>redtaiko.png</file>
+        <file>redtaikol.png</file>
+        <file>scoreboard.png</file>
+        <file>soulblk.png</file>
+        <file>soulblue.png</file>
+        <file>soulgreen.png</file>
+        <file>soulyellow.png</file>
+        <file>target.png</file>
+    </qresource>
+</RCC>
